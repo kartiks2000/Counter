@@ -1,0 +1,35 @@
+.display{
+  width: 20vw;
+  height: 20vh;
+  background-color: aqua;
+  position: relative;
+  margin: auto auto;
+  margin-top: 7%;
+}
+
+.screen{
+  width: 30%;
+  height: 30%;
+  background-color: burlywood;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 2.2rem;
+  padding: .6rem;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.btn{
+  padding: .6rem;
+  margin: 1rem;
+  text-transform: uppercase;
+  background-color:darkgrey;
+}
